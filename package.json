@@ -9,5 +9,8 @@
   ],
   "author": "Guillaume Helbecque",
   "repository": "https://github.com/Guillaume-Helbecque/chapel-highlighting-pulsar",
-  "license": "BSD-3-Clause"
+  "license": "BSD-3-Clause",
+  "engines": {
+    "pulsar": ">=1.100.0"
+  }
 }
