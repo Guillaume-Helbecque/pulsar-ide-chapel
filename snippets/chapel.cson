@@ -1,0 +1,9 @@
+'.source.chapel':
+  'New Function':
+    prefix: 'proc'
+    body: '''
+      proc ${1:fname}(${2:}) {
+        ${3:}
+      }
+      '''
+    description: 'New Function'

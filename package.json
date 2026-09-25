@@ -1,0 +1,13 @@
+{
+  "name": "pulsar-ide-chapel",
+  "version": "0.1.0",
+  "description": "Chapel language support for Pulsar",
+  "keywords": [
+    "ide",
+    "chapel",
+    "pulsar"
+  ],
+  "author": "Guillaume Helbecque",
+  "repository": "https://github.com/Guillaume-Helbecque/chapel-highlighting-pulsar",
+  "license": "BSD-3-Clause"
+}
