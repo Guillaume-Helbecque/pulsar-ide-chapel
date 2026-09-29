@@ -1,16 +1,33 @@
 {
   "name": "pulsar-ide-chapel",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Chapel language support for Pulsar",
+  "main": "./lib/main",
   "keywords": [
     "ide",
     "chapel",
-    "pulsar"
+    "pulsar",
+    "programming language",
+    "language server",
+    "linter"
   ],
   "author": "Guillaume Helbecque",
   "repository": "https://github.com/Guillaume-Helbecque/pulsar-ide-chapel",
   "license": "BSD-3-Clause",
   "engines": {
     "pulsar": ">=1.100.0"
+  },
+  "activationHooks": [
+    "source.chapel:root-scope-used"
+  ],
+  "consumedServices": {
+	  "linter-indie": {
+	    "versions": {
+	      "2.0.0": "consumeLinterV2"
+	    }
+	  }
+	},
+  "dependencies": {
+    "@savetheclocktower/atom-languageclient": "^1.18.0"
   }
 }
