@@ -22,7 +22,15 @@ Chapel support for [Pulsar](https://pulsar-edit.dev/) providing syntax highlight
 
 The package provides built-in support for the [Chapel language server](https://chapel-lang.org/docs/tools/chpl-language-server/chpl-language-server.html) and [diagnostics](https://chapel-lang.org/docs/tools/chplcheck/chplcheck.html).
 If `chpl-language-server` is available in your `$PATH`, the package will automatically use it.
-If not, you can either specify your `CHPL_HOME` in the package settings or specify the path to the executables.
+If not, you can either specify your `CHPL_HOME` in the package settings or specify the path to the executable.
+
+### Specifying `CHPL_HOME` :
+
+Open the package settings and set `chapel_home_directory` to the path of your Chapel `CHPL_HOME`.
+
+### Specifying the path to the executables:
+
+Open the package settings and set `chapel_language_server_path` to the path of the Chapel language server executable.
 
 ## Contributing
 

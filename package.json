@@ -1,6 +1,6 @@
 {
   "name": "pulsar-ide-chapel",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Chapel language support for Pulsar",
   "main": "./lib/main",
   "keywords": [
@@ -29,5 +29,27 @@
 	},
   "dependencies": {
     "@savetheclocktower/atom-languageclient": "^1.18.0"
+  },
+  "configSchema": {
+	  "chapel_home_directory": {
+	    "type": "string",
+	    "default": "",
+      "description": "Path to CHPL_HOME. If not provided, the package may be able to find it automatically if `chpl-language-server` is provided or in PATH."
+	  },
+	  "enable_chapel_language_server": {
+  		"type": "boolean",
+  		"default": true,
+  		"description": "Enable the Chapel language server."
+    },
+    "chapel_language_server_path": {
+  		"type": "string",
+  		"default": "",
+  		"description": "Path to the chpl-language-server executable."
+    },
+    "enable_chplcheck": {
+  		"type": "boolean",
+  		"default": true,
+  		"description": "Enable chplcheck diagnostics."
+    }
   }
 }

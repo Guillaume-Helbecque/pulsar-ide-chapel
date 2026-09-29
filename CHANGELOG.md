@@ -1,3 +1,6 @@
+## 0.2.1
+- Add missing configuration options for `CHPL_HOME` and `chpl-language-server`
+
 ## 0.2.0
 - Add support for [`chpl-language-server`](https://chapel-lang.org/docs/tools/chpl-language-server/chpl-language-server.html) with [`chplcheck`](https://chapel-lang.org/docs/tools/chplcheck/chplcheck.html) diagnostics
 
